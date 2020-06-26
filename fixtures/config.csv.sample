@@ -1,0 +1,4 @@
+path,scope,scope_code,value
+design/header/welcome,default,,Default welcome
+design/header/welcome,websites,test_site,Site Welcome
+design/header/welcome,store_view,test_view,Store Welcome

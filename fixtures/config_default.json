@@ -1,0 +1,250 @@
+{
+    "configuration": {
+        "admin": {
+            "captcha": {
+                "enable": "0",
+                "forms" : ""
+            },
+            "dashboard": {
+                "enable_charts":"1"
+            },
+            "magento_logging": {
+                "actions": "{\"adminhtml_system_account\":\"1\",\"adminhtml_permission_roles\":\"1\",\"adminhtml_permission_users\":\"1\",\"admin_login\":\"1\",\"cms_blocks\":\"1\",\"magento_versionscms_hierarchy\":\"1\",\"version_cms_pages\":\"1\",\"cms_pages\":\"1\",\"cache_management\":\"1\",\"salesrule\":\"1\",\"catalog_attributes\":\"1\",\"catalog_categories\":\"1\",\"magento_catalogevent\":\"1\",\"catalogrule\":\"1\",\"tax_product_tax_classes\":\"1\",\"catalog_attributesets\":\"1\",\"catalog_products\":\"1\",\"rating\":\"1\",\"review\":\"1\",\"catalogsearch\":\"1\",\"sales_agreement\":\"1\",\"adminhtml_system_variable\":\"1\",\"customer_groups\":\"1\",\"magento_invitation\":\"1\",\"tax_customer_tax_classes\":\"1\",\"customer\":\"1\",\"magento_giftcardaccount\":\"1\",\"magento_giftregistry_entity\":\"1\",\"magento_giftregistry_type\":\"1\",\"magento_banner\":\"1\",\"adminhtml_system_currency\":\"1\",\"adminhtml_customer_address_attribute\":\"1\",\"adminhtml_customer_attribute\":\"1\",\"adminhtml_system_design\":\"1\",\"magento_customersegment\":\"1\",\"adminhtml_system_stores\":\"1\",\"adminhtml_system_store_groups\":\"1\",\"adminhtml_system_websites\":\"1\",\"newsletter_queue\":\"1\",\"newsletter_subscribers\":\"1\",\"newsletter_templates\":\"1\",\"paypal_settlement_reports\":\"1\",\"reports\":\"1\",\"magento_reward_rate\":\"1\",\"magento_targetrule\":\"1\",\"magento_salesarchive\":\"1\",\"sales_creditmemos\":\"1\",\"sales_invoices\":\"1\",\"sales_order_status\":\"1\",\"sales_orders\":\"1\",\"sales_shipments\":\"1\",\"magento_advancedcheckout\":\"1\",\"magento_customerbalance\":\"1\",\"backups\":\"1\",\"adminhtml_system_config\":\"1\",\"tax_rates\":\"1\",\"tax_rules\":\"1\",\"adminhtml_email_template\":\"1\",\"urlrewrites\":\"1\",\"widget_instance\":\"1\",\"google_sitemap\":\"1\"}"
+            },
+            "security": {
+                "admin_account_sharing": "1",
+                "password_lifetime": "",
+                "password_is_forced": "0",
+                "session_lifetime": "900000",
+                "use_case_sensitive_login": "0"
+            }
+        },
+        "catalog": {
+            "magento_targetrule": {
+                "crosssell_position_limit": "6",
+                "related_position_limit": "5"
+            },
+            "product_video": {
+                "youtube_api_key": ""
+            }
+        },
+        "customer": {
+            "startup": {
+                "redirect_dashboard": "1"
+            }
+        },
+        "design": {
+            "header": {
+                "welcome": ""
+            }
+        },
+        "cataloginventory": {
+            "source_selection_distance_based_google": {
+                "api_key": ""
+            }
+        },
+        "dev": {
+            "js": {
+                "merge_files": "0",
+                "minify_files": "0",
+                "enable_js_bundling":"0"
+            },
+            "css": {
+                "merge_css_files": "0",
+                "minify_files": "0"
+            },
+            "static": {
+                "sign": "0"
+            },
+            "template": {
+                "minify_html": "0"
+            }
+
+        },
+        "general": {
+            "store_information": {
+                "name": "Luma, Inc.",
+                "phone": "310-945-0345",
+                "hours": "9AM - 5PM",
+                "country_id": "US",
+                "region_id": "12",
+                "postcode": "90016",
+                "city": "Los Angeles",
+                "street_line1": "3640 Holdrege Ave"
+            }
+        },
+        "google": {
+            "analytics":{
+                "account": "",
+                "active": "1",
+                "type": "tag_manager",
+                "experiments": "0",
+                "container_id": "",
+                "catalog_page_list_value": "Catalog Page",
+                "crosssell_block_list_value": "Cross-sell",
+                "upsell_block_list_value": "Up-sell",
+                "related_block_list_value": "Related Products",
+                "search_page_list_value": "Search Results",
+                "promotions_list_value": "Label"
+            }
+        },
+        "payment": {
+            "braintree": {
+                "active": "1",
+                "title": "Credit Card",
+                "environment": "sandbox",
+                "payment_action": "authorize",
+                "merchant_account_id": "",
+                "merchant_id": "",
+                "public_key": "encrypt()",
+                "private_key": "encrypt()",
+                "debug": "0",
+                "capture_action": "invoice",
+                "order_status": "processing",
+                "use_vault": "0",
+                "duplicate_card": "0",
+                "cctypes": "AE,VI,MC,DI,JCB",
+                "enable_cc_detection": "1",
+                "fraudprotection": "0",
+                "usecache": "0",
+                "allowspecific": "0",
+                "countrycreditcard": "[]",
+                "verify_3dsecure": "0"
+            },
+            "braintree_cc_vault": {
+                "active": "1",
+                "title": "Stored Cards"
+            },
+            "braintree_paypal": {
+                "active": "1",
+                "title": "PayPal",
+                "payment_action": "authorize",
+                "order_status": "processing",
+                "allowspecific": "0",
+                "require_billing_address": "0",
+                "display_on_shopping_cart": "0",
+                "allow_shipping_address_override": "0"
+            },
+            "paypal": {
+                "general": {
+                    "merchant_country": "NULL",
+                    "business_account" : ""
+                },
+                "wpp" : {
+                    "api_authentication": "0",
+                    "api_username": "encrypt(",
+                    "api_password": "encrypt()",
+                    "api_signature": "encrypt()",
+                    "sandbox_flag": "1",
+                    "use_proxy": "0",
+                    "button_flavor": "dynamic"
+                }
+            },
+            "paypal_express_bml": {
+                "active": "1",
+                "sort_order":"1",
+                "publisher_id": "NULL",
+                "homepage_display": "0",
+                "homepage_position": "0",
+                "homepage_size": "190x100",
+                "categorypage_display": "0",
+                "categorypage_position": "0",
+                "categorypage_size": "190x100",
+                "productpage_display": "0",
+                "productpage_position": "0",
+                "productpage_size": "190x100",
+                "checkout_display": "0",
+                "checkout_position": "0",
+                "checkout_size": "234x60"
+            },
+            "paypal_express": {
+                "skip_order_review_step": "1",
+                "title": "PayPal Express Checkout",
+                "sort_order": "1",
+                "payment_action": "Authorization",
+                "visible_on_product": "1",
+                "visible_on_cart": "1",
+                "allowspecific": "0",
+                "debug": "0",
+                "verify_peer": "0",
+                "line_items_enabled": "1",
+                "transfer_shipping_options": "0",
+                "solution_type": "Mark",
+                "require_billing_address": "0",
+                "allow_ba_signup": "never",
+                "active": "1",
+                "in_context": "1",
+                "merchant_id": ""
+            }
+        },
+        "shipping": {
+            "origin": {
+                "city": "Los Angeles",
+                "street_line1": "3640 Holdrege Ave",
+                "postcode": "90016"
+            }
+        },
+        "system": {
+            "cron": {
+                "catalog_event": {
+                    "schedule_lifetime": "10"
+                },
+                "index": {
+                    "schedule_lifetime": "10"
+                },
+                "staging": {
+                    "schedule_lifetime": "10"
+                }
+            },
+            "full_page_cache": {
+                "ttl": "8640000"
+            },
+            "gmailsmtpapp": {
+                "active": "1",
+                "name": "smtp.gmail.com",
+                "auth": "LOGIN",
+                "ssl": "tls",
+                "smtphost": "smtp.gmail.com",
+                "smtpport": "587",
+                "username": "",
+                "password": "encrypt()",
+                "set_reply_to": "1",
+                "set_from": "1",
+                "set_return_path": "1",
+                "debug": {
+                    "email": "",
+                    "from_email": ""
+                }
+            }
+        },
+        "sales": {
+            "magento_rma":{
+                "use_store_address": "1",
+                "enabled_on_product": "1",
+                "enabled": "1"
+            }
+        },
+        "sales_email": {
+            "order": {
+                "enabled": "1"
+            },
+            "invoice": {
+                "enabled": "1"
+            },
+            "shipment": {
+                "enabled": "1"
+            },
+            "creditmemo": {
+                "enabled": "1"
+            }
+        },
+        "web": {
+            "cookie": {
+                "cookie_lifetime": "604800"
+            },
+            "seo": {
+                "use_rewrites": "1"
+            }
+        }
+    }
+}

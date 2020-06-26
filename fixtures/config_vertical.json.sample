@@ -1,0 +1,9 @@
+{
+    "configuration": {
+        "design": {
+            "header": {
+                "welcome": "vertical welcome"
+            }
+        }
+    }
+}

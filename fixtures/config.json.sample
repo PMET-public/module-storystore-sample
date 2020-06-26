@@ -1,0 +1,13 @@
+{
+    "configuration": {
+        "design": {
+            "header": {
+                "welcome": {
+                    "websites": {
+                        "test_site": "test Site welcome"
+                    }
+                }
+            }
+        }
+    }
+}

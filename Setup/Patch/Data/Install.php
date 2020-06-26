@@ -21,7 +21,12 @@ class Install implements DataPatchInterface
 
     public function apply()
     {
-       $this->process->loadFiles('StoryStore_Sample','fixtures');
+        /**
+         * $this->process->loadFiles(<name of module>,<data files directory (defaults to fixtures)>
+         *
+         * the data files directory can be any directory in the root of the module, or a subdirectory (fixtures/grocery)
+         */
+       $this->process->loadFiles('StoryStore_Sample');
     }
 
     public static function getDependencies()
