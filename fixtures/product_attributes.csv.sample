@@ -1,0 +1,9 @@
+frontend_label,frontend_input,is_required,option,attribute_code,position,attribute_set
+"Style",multiselect,0,"Backpack
+Luggage
+Duffel
+Messenger
+Laptop
+Exercise
+Tote",style_bags,1,Bags
+Performance Fabric,boolean,0,,performance_fabric,2,Bags

@@ -17,5 +17,26 @@
     "psr-4": {
       "StoryStore\\Sample\\": ""
     }
-  }
+  },
+    "extra": {
+        "map": [
+            [
+                "media/wysiwyg",
+                "../../pub/media"
+            ],
+            [
+                "media/logo/*",
+                "../../pub/media/logo/stores"
+            ],
+            [
+                "media/favicon/*",
+                "../../pub/media/favicon/stores"
+            ],
+            [
+                "media/theme/*",
+                "../../app/design/frontend"
+            ]
+
+        ]
+    }
 }
