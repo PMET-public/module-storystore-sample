@@ -35,6 +35,10 @@
             [
                 "media/theme/*",
                 "../../app/design/frontend"
+            ],
+            [
+                "media/.template-manager",
+                "../../pub/media"
             ]
 
         ]
