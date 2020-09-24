@@ -22,7 +22,7 @@
         "map": [
             [
                 "media/wysiwyg",
-                "../../pub/media"
+                "../../pub/media/wysiwyg"
             ],
             [
                 "media/logo/*",
