@@ -39,6 +39,10 @@
             [
                 "media/.template-manager",
                 "../../pub/media"
+            ],
+            [
+                "media/downloadable_products",
+                "../../pub/media/import"
             ]
 
         ]
