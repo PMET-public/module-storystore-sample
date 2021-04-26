@@ -44,7 +44,7 @@ class Install implements DataPatchInterface
          */
 
 
-        $fixtures = 'data';
+        $fixtures = 'fixtures';
         $files = 'start';
 
         $this->process->loadFiles($this->helper->getModuleName(),$fixtures,explode(",",$files));

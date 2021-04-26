@@ -49,7 +49,7 @@ class InstallStores implements DataPatchInterface
          */
 
 
-        $fixtures = 'data';
+        $fixtures = 'fixtures';
         $files = 'stores';
 
         $this->process->loadFiles($this->helper->getModuleName(),$fixtures,explode(",",$files));

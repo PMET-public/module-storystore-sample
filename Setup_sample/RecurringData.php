@@ -49,7 +49,7 @@ class RecurringData implements InstallDataInterface
          */
 
 
-        $fixtures = 'data';
+        $fixtures = 'fixtures';
         $files = 'end';
 
         $this->process->loadFiles($this->helper->getModuleName(),$fixtures,explode(",",$files));
