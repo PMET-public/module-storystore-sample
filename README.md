@@ -2,7 +2,7 @@
 
 This is an example of a module compatible with the MagentoEse Data Installer.
 
-The default installation method is compatible with the Data Insaller command line tool: ``bin/magento gxd:datainstall``
+The example shown is compatible with the Data Installer command line tool: `bin/magento gxd:datainstall`
 
 #### Usage
 
