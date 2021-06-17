@@ -35,19 +35,22 @@ class Install implements DataPatchInterface
     {
         /**
          * Options:
-         * $fixtures = the data files directory can be any directory in the root of the module, or a subdirectory (fixtures/grocery)
+         * $load = the data files directory can be any directory in the root of the module, or a subdirectory (data/store)
          * $files = This can be a comma delimited list of files in the order to be processed. If left empty all files will be processed
          * It is recommended to set $files to specific values:
          * InstallStores.php $files='stores'
          * Install.php $files='start'
          * RecurringData.php $files='End'
+         * $reload = reloading of existing module.  This needs to be 1 in InstallStores.php and RecurringData.php
          */
 
 
-        $fixtures = 'fixtures';
         $files = 'start';
-
-        $this->process->loadFiles($this->helper->getModuleName(),$fixtures,explode(",",$files));
+        //$load is empty as we will use the .default file to select the data directory
+        $load = '';
+        $reload = 1;
+        
+        $this->process->loadFiles($this->helper->getModuleName(),$load,explode(",",$files),$reload);
        
     }
 
