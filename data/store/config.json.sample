@@ -3,7 +3,7 @@
         "design": {
             "header": {
                 "welcome": {
-                    "websites": {
+                    "website": {
                         "test_site": "test Site welcome"
                     }
                 }

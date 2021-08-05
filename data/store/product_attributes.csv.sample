@@ -1,7 +1,7 @@
 frontend_label,frontend_input,is_required,option,attribute_code,position,attribute_set
 "Style",multiselect,0,"Backpack
 Luggage
-Duffel
+Duffle
 Messenger
 Laptop
 Exercise
